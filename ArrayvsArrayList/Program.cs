@@ -55,15 +55,19 @@ namespace ArrayvsArrayList
             }
             catch(System.IO.IOException exception)
             {
+                // odchyceny konkretni vynimky
+                // neco sem udelal
+                // znovu vyhozeny a poslani dal 
                 throw exception;
             }
             catch(Exception exception)
             {
+                // odchyceny obecne vynimky 
                 Console.WriteLine(exception.Message);
             }
             finally
             {
-
+                //vzdy se provede
             }
 
 
