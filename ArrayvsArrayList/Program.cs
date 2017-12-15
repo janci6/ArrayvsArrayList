@@ -49,11 +49,21 @@ namespace ArrayvsArrayList
             string vstup = "bgvhh776";
             try
             {
-                int cislo = int.Parse(vstup);
+                int nula = 0;
+                int cislo = 10 / nula;
+                //int cislo = int.Parse(vstup);
+            }
+            catch(System.IO.IOException exception)
+            {
+                throw exception;
             }
             catch(Exception exception)
             {
                 Console.WriteLine(exception.Message);
+            }
+            finally
+            {
+
             }
 
 
